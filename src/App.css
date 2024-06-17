@@ -1,0 +1,39 @@
+.container {
+  width: auto;
+  height: auto;
+  background-color: #ffffff;
+  align-items: center;
+}
+
+.container #title{
+  display: flex;
+  justify-content: center;
+}
+
+.container .search{
+  display: flex;
+  justify-content: center;
+  width: auto;
+}
+
+.container .menu {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  font-size: small;
+}
+.container .menu .card{
+  width: 200px;
+  padding: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+.container .menu img{
+  width: 200px;
+}
+.container .menu .menu_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
